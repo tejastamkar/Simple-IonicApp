@@ -1,0 +1,7 @@
+{
+  "name": "cardappwithionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
