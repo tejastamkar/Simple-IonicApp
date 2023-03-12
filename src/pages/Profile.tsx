@@ -10,6 +10,9 @@ import Lottie from "lottie-react";
 import hiDragon from "../assets/hidragon.json";
 import rock from "../assets/rock.json";
 import { useState } from "react";
+
+
+
 const Profile: React.FC = () => {
   const [animation, setanimation] = useState(false);
 

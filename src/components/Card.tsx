@@ -1,10 +1,4 @@
-import {
-  IonCard,
-  IonCardContent,
-  IonCardHeader,
-  IonCardSubtitle,
-  IonCardTitle,
-} from "@ionic/react";
+import { IonCard } from "@ionic/react";
 
 interface blogData {
   title: string;
@@ -31,7 +25,7 @@ export const PostCard: React.FC<postData> = ({ title, image }) => {
   return (
     <>
       <IonCard className="p-4 content-center ">
-        <img alt={title} src={image} className="pb-1"/>
+        <img alt={title} src={image} className="pb-1" />
         <div className="mx-auto px-auto">
           <strong className="text-xl text-white  font-bold">{title}</strong>
         </div>
